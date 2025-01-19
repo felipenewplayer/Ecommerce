@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/ApiGateWay/pom.xml" />
         <option value="$PROJECT_DIR$/Catalogo/pom.xml" />
+        <option value="$PROJECT_DIR$/Pedido/pom.xml" />
       </list>
     </option>
   </component>
