@@ -1,0 +1,1 @@
+#Este projeto utiliza uma arquitetura baseada em microsserviços, onde cada serviço é responsável por uma funcionalidade específica. A comunicação entre os microsserviços é gerenciada por um API Gateway.
