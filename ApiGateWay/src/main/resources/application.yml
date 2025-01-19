@@ -1,0 +1,15 @@
+server:
+  port: 8080 # Porta onde a API Gateway vai rodar
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: microservice1
+          uri: http://localhost:8081 # URL do Microservice 1
+          predicates:
+            - Path=/microservice1/**
+        - id: microservice2
+          uri: http://localhost:8082 # URL do Microservice 2
+          predicates:
+            - Path=/microservice2/**
