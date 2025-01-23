@@ -1,4 +1,4 @@
-package br.com.alurafood.server;
+package com.example.felipe.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
